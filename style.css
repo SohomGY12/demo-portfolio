@@ -1,7 +1,8 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: rgb(227, 11, 11);
+    color: rgb(198, 17, 17);
   }
   
   header {
@@ -32,7 +33,7 @@ body {
   
   nav a {
     color: rgb(226, 239, 39);
-    text-decoration: none;
+    text-decoration: blue;
   }
   
   main {
