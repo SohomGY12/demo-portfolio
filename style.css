@@ -180,7 +180,7 @@ header {
     margin-bottom: 15px;
     color: transparent;
     -webkit-text-stroke: 1px #333;
-    background: url(../demo-portfolio/img/back2.png);
+    background: url(./img/back2.png);
     -webkit-background-clip: text;
     background-clip: text;
     background-position: 0 0;
