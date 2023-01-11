@@ -1,42 +1,216 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="lor.css">
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <title>
+    <h1>we are here to introduce you a fascinating world</h1>
+  </title> -->
   <title>My Portfolio</title>
 </head>
 <body>
+  <!-- <header>
+    <h1>welcome to the Portfolio</h1>
+  </header> -->
   <header>
-    <h1>swagat in My Portfolio</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <img src="./img/logo.png" class="logo_pic" alt="Logo">
+    <ul class="navbar">
+      <li><a href="#about" class="navigation">About</a></li>
+      <li><a href="#projects" class="navigation">Projects</a></li>
+      <li><a href="#contact_me" class="navigation">Contact Me</a></li>
+      <li><a href="#videosolutions" class="navigation">Video Solutions</a></li>
     </ul>
-  </nav>
+
+    <div class="main">
+      <button class="btn">Download CV</button>
+      </div>
+  </header>
+    
+  <div class="content">
+    <h2>Hello 👋<br>My Name is,<br></h2>
+    <h1>SOHOM MUKHERJEE</h1>
+    <h5>I am an aspiring Developer</h5>
+    <h3>Welcome to my website!</h3>
+</div>
+
+<div class="flex">
+  <div class="orb"></div>
+</div>
+<img src="img/profile.png" alt="" class="profile">
+
+
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>nd JavaScript, and am always looking to learn more and improve my skills.</p>
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My Introduction</span>
+
+      <div class="about__container container grid"> 
+        <div class="about__data">
+      <!-- <p class="about__description">this is our team where we give you a feel of code and programming languages through our projects. we are software developers and we are here to guide a complete roadmap how you can use your coding knowledges and improving your CV for your job related issues. here we describe every single line of those high demanding project topics throughsource codes and you can lso learn every pin point informations through our video solutions. please experience your skills and make your career at a high limit </p> -->
+
+      <div class="about__info">
+        <div>
+          <span class="about__info-title"><i class="uil uil-user"></i></span>
+          <span class="about__info-name">An aspiring <br>developer with an eye <br>for design, UX and UI <br>development and a strong <br>desire to learn and create</span>
+        </div>
+        
+        <div>
+          <span class="about__info-title"><i class="uil uil-award"></i></span>
+          <span class="about__info-name">I firmly believe in <br>life long learning and I'm <br>constantly exploring new ideas <br>and technologies. <br>MOOC's have enabled me to <br>update my skills and keep <br>abreast of the latest trends <br>in design and coding</span>
+        </div>
+
+        <div>
+          <span class="about__info-title"><i class="uil uil-desktop-alt"></i></span>
+          <span class="about__info-name">My interests are wide <br>with qualifications in <br>Computer Science.<br>I have designed and/or <br>written projects for <br>schools and universities</span>
+        </div>
+      </div>
+
+    </div>
+    </div>
     </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <h3>Project 1</h3>
-      <p>A brief description of Project 1 goes here.</p>
-      <h3>Project 2</h3>
-      <p>A brief description of Project 2 goes here.</p>
+
+    <section class="projects section_projects" id="projects">
+      <h2 class="section__title_projects">Projects</h2>
+      
+      <div class="about__info">
+        <div>
+          <span class="about__info-title">1+</span>
+          <span class="about__info-name">Years<br> Coding Experience</span>
+        </div>
+
+        <div>
+          <span class="about__info-title">4+</span>
+          <span class="about__info-name">Projects<br> Completed</span>
+        </div>
+
+        <div>
+          <span class="about__info-title">10+</span>
+          <span class="about__info-name">Developing<br> Projects</span>
+        </div>
+      </div>
+      <span class="section__subtitle_projects">My Completed Projects</span>
+     
+     <section class="hero-section">
+      <div class="card-grid">
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(./img/calculator.png)"></div>
+          <div class="card__content">
+            <p class="card__category">Project</p>
+            <h3 class="card__heading">Project 1</h3>
+            <div class="project_summary">
+              <h2 class="project_title">Calculator</h2>
+              <p class="created_date">Created: December 2022</p>
+              <p class="project_desc">Minimalistic calculator using Javascript.</p>
+            </div>
+          </div>
+          
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(./img/weather.jpg)"></div>
+          <div class="card__content">
+            <p class="card__category">Project</p>
+            <h3 class="card__heading">Project 2</h3>
+            <div class="project_summary">
+              <h2 class="project_title">Weather App</h2>
+              <p class="created_date">Created: December 2022</p>
+              <p class="project_desc">Minimalistic Weather App using Javascript.</p>
+            </div>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(./img/payment.png)"></div>
+          <div class="card__content">
+            <p class="card__category">Project</p>
+            <h3 class="card__heading">Project 3</h3>
+            <div class="project_summary">
+              <h2 class="project_title">Payment Website</h2>
+              <p class="created_date">Created: December 2022</p>
+              <p class="project_desc">Minimalistic website using HTML, CSS</p>
+            </div>
+          </div>
+        </li>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(./img/responsive.png)"></div>
+          <div class="card__content">
+            <p class="card__category">Project</p>
+            <h3 class="card__heading">Project 4</h3>
+            <div class="project_summary">
+              <h2 class="project_title">Responsive Website</h2>
+              <p class="created_date">Created: December 2022</p>
+              <p class="project_desc">Minimalistic website using HTML, CSS, JS</p>
+            </div>
+          </div>
+        </a>
+      <div>
     </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
+
+
+    </section>
+
+
+    <section class="contact section" id="contact_me">
+      <!-- <h2>Contact Me</h2>
       <p>Email: info@myportfolio.com</p>
-      <p>Phone: 555-555-5555</p>
-      <p>Twitter: <a href="https://instagram.com/myhandle">@myhandle</a></p>
-    </section>
+      <p>Phone: 033-2654-9847</p>
+      <p>instagram: <a href="https://instagram.com/myhandle">@myhandle</a></p> -->
+    
+
+     
+      <form id="contact" action="" method="post">
+        <h3>Want To Contact Me ?</h3>
+        <h4>Please Submit Your Details Below To Contact Me</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+     
+    </section>  
+    
+    <!-- <div class="contain section">
+      <div class="card1">
+        <div class="front" class="about__info-title"><i class="uil uil-play-circle"></i>
+          <img src="../demo-portfolio/img/video.png" alt="">
+        </div>
+      </div>
+    </div> -->
+    <!-- <h1 class="video_h1">Video Solution</h1>
+    <div class="wrapper">
+      <div class="card1" style="background-image: url(../demo-portfolio/img/video.png);">
+        <h3 class="card-title">CARD TITLE</h3>
+          <p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <button class="card-btn"><i class="uil uil-play-circle"></i></button>
+        </div> -->
+
   </main>
   <footer>
-    <p>Copyright 2022</p>
+    <p>@Copyright 2022</p>
+    <a href="#" class="fa fa-facebook" alt=""></a>
+    <a href="#" class="fa fa-twitter" alt=""></a>
+    <a href="#" class="fa fa-google" alt=""></a>
+    <a href="#" class="fa fa-linkedin" alt=""></a>
+    <a href="#" class="fa fa-youtube" alt=""></a>
+    <a href="#" class="fa fa-instagram" alt=""></a>
+    <a href="#" class="fa fa-pinterest" alt=""></a>
   </footer>
 </body>
 </html>
+
